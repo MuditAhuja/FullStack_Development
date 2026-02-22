@@ -33,10 +33,37 @@ form button {
     background-color: #e76f51;
     color: white;
     cursor: pointer;
+    font-size: 15px;
+}
+
+/* Search bar */
+#search-bar {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#search-input {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: none;
+    width: 260px;
+    font-size: 14px;
+}
+
+#search-btn {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #e76f51;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
 }
 
 #job {
-    margin-top: 40px;
+    margin-top: 30px;
     width: 80%;
 }
 
@@ -45,4 +72,30 @@ form button {
     padding: 20px;
     margin: 15px auto;
     border-radius: 15px;
+}
+
+/* Edit / Delete buttons */
+.card-actions {
+    margin-top: 12px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.edit-btn, .delete-btn {
+    padding: 7px 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.edit-btn {
+    background-color: #457b9d;
+    color: white;
+}
+
+.delete-btn {
+    background-color: #e63946;
+    color: white;
 }
