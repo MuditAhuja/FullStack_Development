@@ -1,0 +1,11 @@
+#btn {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+#btn:hover {
+  background-color: darkblue;
+}
